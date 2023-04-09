@@ -286,7 +286,7 @@ int Snake::tryMoveHere(IGameModule::DIRECTION direction)
 
 void Snake::move(void)
 {
-    if (getTimeElapsed(start) < std::chrono::milliseconds(200)) {
+    if (getTimeElapsed(start) < std::chrono::milliseconds(int(std::floor(200 - (_score * 0.5))))) {
         return;
     } else {
         setChronoValue(std::chrono::high_resolution_clock::now());

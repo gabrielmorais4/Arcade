@@ -8,6 +8,7 @@
 #ifndef SNAKE_HPP_
 #define SNAKE_HPP_
 #include "AGameModule.hpp"
+#include <cmath>
 
 class Snake : public AGameModule {
     public:
