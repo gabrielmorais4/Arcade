@@ -431,7 +431,7 @@ void Nibbler::changeLevel(void)
     start = std::chrono::high_resolution_clock::now();
     scoreClock = std::chrono::high_resolution_clock::now();
     _time = 0;
-    _score = 0;
+    // _score = 0;
     _next_direction = IGameModule::DIRECTION::RIGHT;
     _head_x = 0;
     _head_y = 0;
