@@ -47,7 +47,7 @@ Update the screen using the entities sent by the game, the struct of the entitie
 `color_t color_bg; // Background color`
 
 - `virtual void draw();`
-Draws the window
+Draws the window 
 
 - `void saveTextures(const std::vector<std::string> &texture)`
 Saves the textures used by the graphics libs, so that they are loaded once, for optimization.
